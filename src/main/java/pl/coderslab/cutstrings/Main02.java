@@ -9,6 +9,11 @@ public class Main02 {
                 "Mr. Peabody,Marvin Berry,George McFly,Sam Baines,Mr. Strickland,Sally Baines,Dave McFly";
 
 
+        String arr [] = str.split(",");
+
+        for (String s : arr){
+            System.out.println(s);
+        }
     }
 
 
