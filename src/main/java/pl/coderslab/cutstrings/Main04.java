@@ -13,7 +13,8 @@ public class Main04 {
     }
 
     public static String[] onlyTwoElements(String str, char separator){
-
+        System.out.println();
         return str.split(Character.toString(separator),1);
+
     }
 }
