@@ -14,6 +14,7 @@ public class Main02 {
         char c = (char)55;
 
         boolean d = !!true;
+        System.out.println();
 
     }
 }

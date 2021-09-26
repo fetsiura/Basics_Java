@@ -12,6 +12,6 @@ public class Main05 {
         for (int element : input) {
             result += element;
         }
-        return result;
+        return result/input.length;
     }
 }
