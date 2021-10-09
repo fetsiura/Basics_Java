@@ -30,6 +30,7 @@ public class Main07 {
                 answer = scanner.nextLine();
             } while (!(answer.equals("bn") || answer.equals("nb")));
             return answer;
+
         }
 
         public static double readDouble(Scanner scanner) {
