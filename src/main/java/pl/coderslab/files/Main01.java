@@ -11,9 +11,15 @@ public class Main01 {
         StringBuilder stringBuilder = new StringBuilder();
         Scanner scanner = new Scanner(System.in);
         try(PrintWriter printWriter = new PrintWriter("text1.txt")){
-            while (scanner.hasNextLine()){
-                stringBuilder.append(scanner)
-            }
+            String input = "";
+
+            do {
+                input = scanner.nextLine();
+                if(!input.equals("quit")){
+                 printWriter.println(input);
+                }
+            } while (!input.equals("quit"));
+
         }catch (FileNotFoundException e){
             System.out.println("nie istnieje");
         }
